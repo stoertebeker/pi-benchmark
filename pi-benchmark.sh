@@ -26,7 +26,7 @@ done <tmp2.txt
 #calculate
 result=$(bc <<< "scale=2;(${op})/$l")
 
-echo "Calculated Pi with $LENGTH digits in $result seconds"
+echo "Calculated Pi with $LENGTH decimal places in $result seconds"
 
 #cleanup
 rm tmp.txt
